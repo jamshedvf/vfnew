@@ -1,0 +1,140 @@
+a, a:visited {
+	text-decoration: none;
+	outline: none;
+	color: #54a6de;
+}
+/*----------------------------
+	Headers & Footers
+-----------------------------*/
+
+
+
+
+
+
+/*----------------------------
+	Green filter bar
+-----------------------------*/
+
+
+#filter {
+	display: block;
+	height: 39px;
+	margin: 55px auto;
+	position: relative;
+	width: 515px;
+	text-align: center;
+}
+#filter a {
+	background: none repeat scroll 0 0 #3a393b;
+	border-radius: 20px 20px 20px 20px;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	font-size: 12px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 25px;
+	margin: 0 10px;
+}
+#filter a:hover {
+	text-decoration: none;
+}
+#filter a.active {
+	background: none repeat scroll 0 0 #13A8D5;
+}
+/*----------------------------
+	Content area
+-----------------------------*/
+
+
+#container {
+	display: block;
+	overflow: hidden;
+	/*width: 830px;*/
+	margin: 0 auto;
+}
+#container li {
+	float: left;
+	height: 266px;
+	list-style: none outside none;
+	margin: 0 5px 20px 5px;
+	position: relative;
+	width: 318px;
+	border: 1px solid #c8c8c8;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#container li .pf-img {
+	width: 318px;
+	height: 190px;
+	background: #000;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	position: relative;
+}
+#container li .pf-img img {
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	position: absolute;
+}
+#container li .detail-icon {
+	display: none;
+	position: absolute;
+	left: 136px;
+	top: 80px;
+	width: 48px;
+	height: 48px;
+}
+#container li:hover .detail-icon {
+	display: block;
+}
+#container li .pf-img-detail {
+	width: 318px;
+	height: 46px;
+	background: #eeeeee;
+	padding: 15px 0;
+	text-align: center;
+}
+#container li .pf-img-detail span {
+	font-size: 24px;
+	color: #3a393b;
+	font-family: "myriadpro-light";
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+#container li .pf-img-detail p {
+	font-size: 13px;
+	color: #878787;
+}
+#container li:hover {
+}
+#container li:hover > .pf-img-detail {
+	background: #13a8d5;
+}
+#container li:hover > .pf-img-detail span {
+	color: #FFF;
+}
+#container li:hover > .pf-img-detail p {
+	color: #FFF;
+}
+#container ul {
+	overflow: hidden;
+}
+#container ul.hidden {
+	display: none;
+}
+
+
+/*----------------------------
+	The Footer
+-----------------------------*/
